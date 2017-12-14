@@ -1,0 +1,5 @@
+{
+    "mysql::server::config_hash": {
+        "root_password": "*************"
+    }
+}

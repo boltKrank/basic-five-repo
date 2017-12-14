@@ -2,7 +2,7 @@
 version: 5
 
 defaults:
-  datadir: "data"
+  datadir: "hieradata"
 
 hierarchy:
   - name: 'Yaml backend'
@@ -10,3 +10,14 @@ hierarchy:
     paths:
       - "nodes/%{trusted.certname}.yaml"
       - 'common.yaml'
+  - name: 'Encrypted data'
+    lookup_key: eyaml_lookup_key
+    path: "secrets/encrypted.eyaml"
+    options:
+      pkcs7_private_key: /etc/puppetlabs/puppet/eyaml/private_key.pkcs7.pem
+      pkcs7_public_key:  /etc/puppetlabs/puppet/eyaml/public_key.pkcs7.pem
+  - name: 'JSON backend'
+    data_hash: json_data
+    paths: 
+      - "nodes/%{trusted.certname}.json"
+      - 'common.json'
