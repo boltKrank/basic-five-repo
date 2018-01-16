@@ -1,10 +1,4 @@
 ---
-profile::basicsfiveprofile::vhosts: 
-  - vhost1
-  - vhost2
-  - vhost3
-  - vhost4
-  - vhost5
 profile::basicsfiveprofile::rootpassword: > 
     ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
     DQYJKoZIhvcNAQEBBQAEggEAS5Kvi1kR4ZVLHj6B7pKQVPQ1pBRtkl4J5jn9
