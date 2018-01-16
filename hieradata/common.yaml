@@ -5,4 +5,13 @@ profile::basicsfiveprofile::vhosts:
   - vhost3
   - vhost4
   - vhost5
-profile::basicsfiveprofile::rootpassword: 
+profile::basicsfiveprofile::rootpassword: > 
+    ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+    DQYJKoZIhvcNAQEBBQAEggEAS5Kvi1kR4ZVLHj6B7pKQVPQ1pBRtkl4J5jn9
+    psCShYLKO112ZawRSYi5ftetMEuInwzWxjs9PREDsIWceVN80JEQBWwdvk3X
+    i3H/1pBZvtux3LoOvq2jvsuzKIuLtxNPXQODYWv+YFYtTZg/rH5PV+etyqNx
+    oACvpkuobwOxLtyjSTZzwka0k6kWPCp0upnWHEXl+3BMKkOUt5EC6/PhTwgL
+    3uC2cQ//l1hUN1UIDEO9FBrFa2pOFTROVWwjIbDZNln/fWEpjO+2lrmQruE3
+    YeZWZM0QUEy3yYoU31wQ6IF16EJ61rZFfE2PcYiKy57r0qa5Gzd9LooRwtjJ
+    UrcdmDA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDztAnWiJJOnopogO58
+    F46IgBBIgkVFbLpvyYpUoVugixey]
