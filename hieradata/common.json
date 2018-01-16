@@ -1,5 +1,9 @@
 {
-    "mysql::server::config_hash": {
-        "root_password": "*************"
-    }
+  "vhosts": [
+    "vhost1",
+    "vhost2",
+    "vhost3",
+    "vhost4",
+    "vhost5"
+  ]
 }
