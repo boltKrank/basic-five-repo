@@ -1,2 +1,8 @@
 ---
-message: "This node is using common data"
+profile::basicsfiveprofile::vhosts: 
+  - vhost1
+  - vhost2
+  - vhost3
+  - vhost4
+  - vhost5
+profile::basicsfiveprofile::rootpassword: 
